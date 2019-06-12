@@ -1,0 +1,10 @@
+{
+	"pages": [],
+	"window": {
+		"defaultTitle": "TPL",
+		"pullRefresh": "false",
+		"allowsBounceVertical": "yes",
+		"titleBarColor": "#ffffff"
+	},
+	"tabBar": {}
+}

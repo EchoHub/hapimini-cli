@@ -1,0 +1,14 @@
+{
+    "extends": "standard",
+    "globals": {
+        "App": true,
+        "Page": true,
+        "Component": true,
+        "getApp": true,
+        "my": true
+    },
+    "rules": {
+        "eqeqeq": 0,
+        "standard/no-callback-literal": 0
+    }
+}

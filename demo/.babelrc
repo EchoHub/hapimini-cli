@@ -1,0 +1,18 @@
+{
+    "presets": [
+        "@babel/env"
+    ],
+    "plugins": [
+        [
+            "module-resolver",
+            {
+                "root": [
+                    "./",
+                    "./src/components",
+                    "./../sl-miniapp/src/components"
+                ],
+                "extensions": [".js", ".json"]
+            }
+        ]
+    ]
+}
