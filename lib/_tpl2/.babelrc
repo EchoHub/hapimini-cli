@@ -8,8 +8,7 @@
             {
                 "root": [
                     "./",
-                    "./src/components",
-                    "./../sl-miniapp/src/components"
+                    "./src/components"
                 ],
                 "extensions": [".js", ".json"]
             }
