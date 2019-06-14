@@ -4,7 +4,7 @@
   "description": "支付宝小程序脚手架工具",
   "main": "index.js",
   "bin": {
-    "hapi-cli": "./bin/index.js"
+    "hapimini-cli": "./bin/index.js"
   },
   "keywords": [
     "支付宝小程序",
