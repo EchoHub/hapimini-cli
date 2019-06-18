@@ -8,10 +8,8 @@
     "license": "",
     "scripts": {
       "start": "export NODE_ENV=development && gulp server:watch",
-      "build": "export NODE_ENV=development && gulp build:compile",
       "build:prod": "export NODE_ENV=production && gulp build:compile",
       "uw:start": "cross-env NODE_ENV=development && gulp server:watch",
-      "uw:build": "cross-env NODE_ENV=development && gulp build:compile",
       "uw:build:prod": "cross-env NODE_ENV=production && gulp build:compile"
     },
     "devDependencies": {

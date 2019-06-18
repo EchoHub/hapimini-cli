@@ -1,10 +1,10 @@
 {
   "name": "hapimini-cli",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "支付宝小程序脚手架工具",
   "main": "index.js",
   "bin": {
-    "hapimini-cli": "./bin/index.js"
+    "hapimini": "./bin/index.js"
   },
   "keywords": [
     "支付宝小程序",
