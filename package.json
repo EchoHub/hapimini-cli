@@ -1,6 +1,6 @@
 {
   "name": "hapimini-cli",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "支付宝小程序脚手架工具",
   "main": "index.js",
   "bin": {
