@@ -1,3 +1,6 @@
+# vscode
+.vscode
+
 ## Node.js
 node_modules
 
@@ -5,8 +8,9 @@ node_modules
 .DS_Store
 DS_Store
 
+## dist
+dist/mock
+dist/.tea
+
 ## yarn
 yarn-error.log
-
-## dist
-dist

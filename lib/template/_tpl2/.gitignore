@@ -1,0 +1,16 @@
+# vscode
+.vscode
+
+## Node.js
+node_modules
+
+## DS_Store
+.DS_Store
+DS_Store
+
+## dist
+dist/mock
+dist/.tea
+
+## yarn
+yarn-error.log
