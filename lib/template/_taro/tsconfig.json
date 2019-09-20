@@ -1,14 +1,16 @@
 {
   "compilerOptions": {
-    "target": "es6",
-    "allowUnreachableCode": false,
-    "allowUnusedLabels": false,
-    "alwaysStrict": false,
-    "removeComments": true,
+    "target": "es2017",
+    "module": "commonjs",
+    "removeComments": false,
+    "preserveConstEnums": true,
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
     "noImplicitAny": false,
-    "noImplicitReturns": false,
-    "noImplicitThis": true,
+    "allowSyntheticDefaultImports": true,
+    "outDir": "lib",
     "noUnusedLocals": true,
+    "noUnusedParameters": true,
     "strictNullChecks": true,
     "sourceMap": true,
     "baseUrl": ".",
@@ -16,14 +18,18 @@
     "jsx": "preserve",
     "jsxFactory": "Taro.createElement",
     "allowJs": true,
-    "checkJs": true,
+    "resolveJsonModule": true,
     "typeRoots": [
       "node_modules/@types",
       "global.d.ts"
-    ]
+    ],
+    "paths": {
+      "@/*": ["src/*"]
+    }
   },
   "exclude": [
     "node_modules",
     "dist"
-  ]
+  ],
+  "compileOnSave": false
 }

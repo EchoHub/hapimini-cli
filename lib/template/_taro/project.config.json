@@ -1,8 +1,8 @@
 {
   "miniprogramRoot": "./dist",
-  "projectname": "alipays_mini_tpl",
-  "description": "支付宝小程序开发模版",
-  "appid": "touristappid",
+  "projectname": "taro-alipay-template",
+  "description": "frontend template which customized from tarojs ",
+  "appid": "",
   "setting": {
     "urlCheck": true,
     "es6": false,
